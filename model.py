@@ -1,5 +1,5 @@
 import pandas as pd
-from sklearn.linear_model import LinearRegression
+from sklearn.tree import DecisionTreeRegressor
 
 # Sample dataset
 data = {
@@ -12,7 +12,7 @@ df = pd.DataFrame(data)
 X = df[["Area"]]
 y = df["Price"]
 
-model = LinearRegression()
+model = DecisionTreeRegressor()
 model.fit(X, y)
 
-print("Model trained successfully")
+print("Decision Tree model trained successfully")
