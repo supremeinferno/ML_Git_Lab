@@ -8,7 +8,8 @@ Initially, a Linear Regression model was implemented to train the dataset. Later
 
 The final version of the project was pushed to GitHub, demonstrating proper use of commits, branching, merging, and remote repository management.
 
-Author: Pranav Garg
+Author: Pranav Garg </br>
 GitHub Username: supremeinferno
 
 This assignment provides practical understanding of Git, GitHub, and basic Machine Learning model implementation.
+
